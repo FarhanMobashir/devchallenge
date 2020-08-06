@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+img{
+    max-width: 250px;
+}
+
+.image-section{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mid-image{
+    align-self: baseline;
+}
+
