@@ -40,9 +40,30 @@ img{
     
 }
 .post{
-    transform: rotate(90deg);
-    align-self: flex-end;
 }
 .mid-block{
     padding-top: 100px;
+}
+footer p{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media(max-width:480px){
+    main{
+        display: flex;
+        
+        justify-content: space-around;
+    }
+    .image-section{
+        flex-wrap: wrap;
+    }
+    .mid-block{
+        padding-top: 30px;
+    }
+    img{
+        max-width: 150px;
+    }
+    
 }
