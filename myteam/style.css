@@ -1,25 +1,48 @@
-header {
+header{
     display: flex;
     justify-content: space-evenly;
 }
-
-main div{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-img{
-    max-width: 250px;
-}
-
 .image-section{
     display: flex;
+    justify-content: space-evenly;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.mid-image{
-    align-self: baseline;
+.heading p{
+    font-size: 35px;
+    font-weight: bolder;
 }
 
+.title p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.text p{
+    text-align: center;
+}
+
+.post p{
+    font-size: 20px;
+}
+.name p{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+img{
+    max-width: 350px;
+}
+
+.post p{
+    text-align: right;
+    
+}
+.post{
+    transform: rotate(90deg);
+    align-self: flex-end;
+}
+.mid-block{
+    padding-top: 100px;
+}
