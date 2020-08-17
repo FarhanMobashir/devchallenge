@@ -25,6 +25,8 @@ header{
 
 .post p{
     font-size: 20px;
+    transform: rotate(90deg);
+    text-align: right;
 }
 .name p{
     font-size: 28px;
@@ -35,11 +37,11 @@ img{
     max-width: 350px;
 }
 
-.post p{
-    text-align: right;
-    
-}
+
 .post{
+    padding-left: 330px;
+    
+    
 }
 .mid-block{
     padding-top: 100px;
@@ -53,8 +55,16 @@ footer p{
 @media(max-width:480px){
     main{
         display: flex;
-        
+        flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    .post{
+        padding: 0;
+    }
+
+    .post p{
+        transform: rotate(0deg);
     }
     .image-section{
         flex-wrap: wrap;
